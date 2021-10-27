@@ -1,0 +1,13 @@
+aside {
+  background-color: #0600ff;
+  width: 20%;
+  height: 400px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 1023px) {
+  aside {
+    display: none;
+  }
+}
+

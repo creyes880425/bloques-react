@@ -1,0 +1,28 @@
+.yellowBlock {
+  background-color: #ffff00;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.yellowBlock:first-child,
+.yellowBlock:nth-child(2) {
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .yellowBlock {
+      width: 33%;
+    }
+  }
+  
+  @media only screen and (max-width: 1023px) {
+    .yellowBlock {
+      width: 45%;
+    }
+  }
+  
+  @media only screen and (max-width: 481px) {
+    .yellowBlock {
+      width: 100%;
+    }
+  }
+  
